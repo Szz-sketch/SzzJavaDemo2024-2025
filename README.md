@@ -8,7 +8,7 @@ Freshman year Java files. If you're copying homework, how about a star? 😄
 >> 因为隐私原因删除了 EmailSender.java，保留了 lib 里的 jar 包。  
 >> Removed `EmailSender.java` for privacy reasons, but the lib folder with jar files is still here.
 
-⭐ 点点 star 不准白嫖 555！我想把它分享给更多需要的人～  
+⭐ 点点 star 不准白嫖 555！
 ⭐ Please don't just silently take it! Star this repo if you find it helpful, okay? 555😭  
 Let’s have fun and learn together~
 
@@ -26,9 +26,11 @@ Let’s have fun and learn together~
 这是一个我在大学一年级期间学习 Java 编程语言时写下的练习代码合集。  
 This is a collection of Java practice code written during my freshman year in university.
 
-适合刚入门的小白参考学习，也欢迎大佬指出问题👏  
-Great for beginners to refer to, and experts are welcome to point out any issues👏
+抄作业的同学自取，大佬路过欢迎提 bug👏 
+Classmates are welcome to "borrow" for homework 😄 Experts, please feel free to spot bugs! 👏
+
+非常感谢老师们的辛勤教导！
+Huge thanks to all the teachers for their hard work and guidance!
 
 ---
-
-### 项目结构 / Project Structure  
+//
