@@ -14,15 +14,7 @@ Let’s have fun and learn together~
 
 ---
 
-## 📁 目录 / Directory
-- [简介 / Introduction](#简介--introduction)
-- [项目结构 / Project Structure](#项目结构--project-structure)
-- [使用说明 / How to Use](#使用说明--how-to-use)
-- [注意事项 / Notes](#注意事项--notes)
-
----
-
-### 简介 / Introduction  
+### 📁 简介 / Introduction  
 这是一个我在大学一年级期间学习 Java 编程语言时写下的练习代码合集。  
 This is a collection of Java practice code written during my freshman year in university.
 
@@ -33,4 +25,3 @@ Classmates are welcome to "borrow" for homework 😄 Experts, please feel free t
 Huge thanks to all the teachers for their hard work and guidance!
 
 ---
-//
