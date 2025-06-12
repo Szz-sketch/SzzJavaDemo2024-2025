@@ -17,7 +17,7 @@ public class FileWriterDemo0427 {
         Writer out = new FileWriter("src/write.txt", true);//追加式写入
         //2.准备数据
 //        String str = "今天是周日，但是我们在补课！把周日还给周末！";
-        String str = "\nHello我说大姐，把周日还给周末！！！";
+        String str = "\nHello我说，把周日还给周末！！！";
         //3.写入目标文件
         out.write(str);
         //4.关闭流，释放资源
