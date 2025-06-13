@@ -28,7 +28,7 @@ class Send extends Thread{
                 //2.创建集装箱对象 把数据放置进去
                 DatagramPacket packet =
                         new DatagramPacket(str.getBytes(), str.getBytes().length, InetAddress.getByName("127.0.0.1"), 10086);
-                //3.发生数据：码头对象发送
+                //3.发送数据：码头对象发送
                 socket.send(packet);
             }
             //4.关闭码头
@@ -54,6 +54,7 @@ class Receive extends Thread{
                 byte[] arr = packet.getData();
                 int len = packet.getLength();
                 String ip = packet.getAddress().getHostAddress();
+                System.out.println(ip+"说："+new String(arr,0,len));
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
