@@ -27,9 +27,9 @@ public class SybCoffee implements Franchise{
         menu.add(new MenuItem("拿铁", 25.0));
         menu.add(new MenuItem("卡布奇诺", 30.0));
         menu.add(new MenuItem("美式咖啡", 20.0));
-        customers.add(new Customer("沈彦彬", "2058151603@qq.com"));
-        //customers.add(new Customer("小狗队长", "1914962228@qq.com"));
-        //customers.add(new Customer("王老师", "bizzbee@163.com"));
+        customers.add(new Customer("沈彦彬", "xxxxxxx@qq.com"));
+        //customers.add(new Customer("小狗队长", "xxxxxxx@qq.com"));
+        //customers.add(new Customer("王老师", "xxxxxxx@163.com"));
     }
     //打折方法
     @Override
