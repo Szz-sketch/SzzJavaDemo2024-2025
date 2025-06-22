@@ -313,8 +313,23 @@ MyThread t = new MyThread();
 t.start();
 
 // 实现Runnable接口
-Runnable r = () -> System.out.println("lambda线程");
-new Thread(r).start();
+// 1. 创建Runnable接口的实现类
+class MyRunnable implements Runnable {
+    public void run() {
+        System.out.println("线程运行");
+    }
+}
+// 2. 在main方法中使用
+public class ThreadExample {
+    public static void main(String[] args) {
+        // 创建实现类对象
+        MyRunnable myRunnable = new MyRunnable();
+        // 创建线程对象
+        Thread thread = new Thread(myRunnable);
+        // 启动线程
+        thread.start();
+    }
+}
 ```
 
 **同步锁（防冲突）**：
