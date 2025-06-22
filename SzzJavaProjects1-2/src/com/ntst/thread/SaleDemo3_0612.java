@@ -36,6 +36,30 @@ class SaleThread3 implements Runnable {
     }
 }
 
+//class TicketWindow implements Runnable {
+//    private static int tickets = 100; // 共享票数（必须static）
+//    private Object lock = new Object(); // 锁对象（所有线程共享）
+//
+//    @Override
+//    public void run() {
+//        while (true) {
+//            synchronized (lock) { // 同步代码块
+//                if (tickets > 0) {
+//                    try {
+//                        Thread.sleep(100); // 模拟网络延迟
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                    System.out.println(Thread.currentThread().getName()
+//                            + "售出第" + tickets-- + "张票");
+//                } else {
+//                    break; // 票卖完退出
+//                }
+//            }
+//        }
+//    }
+//}
+
 public class SaleDemo3_0612 {
     public static void main(String[] args) throws InterruptedException {
         //模拟四个售票窗口，创建四个线程
