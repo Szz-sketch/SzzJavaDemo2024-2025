@@ -258,8 +258,11 @@ for(int i=0; i<list.size(); i++) {
 3. 点击响应：
    
    ```java
-   btn.addActionListener(e -> {
-    System.out.println("按钮被点击了！");
+   JButton 按钮名 = new JButton("按钮文本");
+   按钮名.addActionListener(new ActionListener() {
+       public void actionPerformed(ActionEvent e) {
+           // 这里写点击后要做的事
+       }
    });
    ```
 
